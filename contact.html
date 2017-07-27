@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Resume</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="image_src" href="images/favicon.png">
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="js/plugin/jquery-ui/css/ui-lightness/jquery-ui-1.10.3.custom.min.css">
+	<link rel="stylesheet" href="js/plugin/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+
+	<script type="text/javascript" src="js/main/jquery-11.1.1.min.js"></script>
+	<script type="text/javascript" src="js/plugin/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main/main.js"></script>
+	<!-- <script type="text/javascript" src="node_modules/package.json"></script> -->
+</head>
+
+<body>
+
+	<div class="page-wrapper">
+		<div class="topLine"></div>
+		<div class="inner-menu">
+			<ul class="menu-wrapper">
+				<li> <a class="menu" href="index.html">Profile</a></li>
+				<li> <a class="menu" href="experience.html">Experience</a></li>
+				<li> <a class="menu" href="skill.html">Skill</a></li>
+				<li> <a class="menu" href="portfolio.html">Portfolio</a></li>
+				<li> <a class="menu active" href="#">Contact</a></li>
+			</ul>
+			<div class="button-menu"></div>
+		</div>
+		<div class="bg-aboutus"></div>>
+		<div class="title-page fade-in two">
+			<div class="container">
+				<h1>Contact</h1>
+			</div>
+		</div>
+		<div class="page-inner">
+			<div class="container">
+				<div class="inner-wrapper fade-in three">
+					<div class="col-md-5 col-md-offset-2 side-content active">
+						<h1>ติดต่อ</h1>
+
+						<div class="spc5"></div>
+
+						<div class="contact-detail">
+							<img src="images/icon/ico-add.png" alt="">
+							<p>
+								ที่อยู่ : 80/191 อาคาร นวมินทร์ เพลส2 ซอย นวมินทร์ 87 ถนนนวมินทร์ แขวง คลองกุ่ม เขต บึงกุ่ม กรุงเทพมหานคร 10240
+							</p>
+						</div>
+
+						<div class="contact-detail">
+							<img style="top: 14px;" src="images/icon/ico-mail.png" alt="">
+							<p>
+								อีเมล: scmodel2n@gmail.com
+							</p>
+						</div>
+
+						<div class="contact-detail">
+							<img src="images/icon/ico-mobile.png" alt="">
+							<p>
+								โทรศัพท์: 094-156-9915
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		$(document).ready(function () {
+			setTimeout(function(){
+				$('.button-menu').toggleClass("active");
+				$('.inner-menu').toggleClass("active");
+			},2700);
+		});
+	</script>
+
+</body>
+</html>
