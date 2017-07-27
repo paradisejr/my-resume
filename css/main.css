@@ -229,6 +229,10 @@ body {
 }
 .inner-wrapper .box-right h1 {
   font-size: 36px;
+  display: inline-block;
+  width: 100%;
+  line-height: 1;
+  margin-bottom: 10px;
 }
 .inner-wrapper .box-right ul li {
   font-size: 25px !important;
@@ -683,7 +687,20 @@ body {
 .profile-control {
   display: inline-block;
   float: left;
-  margin-right: 20%;
+  margin-right: 0;
+  max-width: 40%;
+  width: 100%;
+  margin-bottom: 0;
+}
+.page-inner .item-brand {
+  display: inline-block;
+  max-width: 60%;
+  width: 100%;
+  float: left;
+  margin-bottom: 0;
+}
+.page-inner .item-brand.field-progres-bar {
+  max-width: 100%;
 }
 .side-content {
   -webkit-transition: all 0.8s ease-in-out 0s;

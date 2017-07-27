@@ -240,6 +240,10 @@ body {
 		font-family: @main;
 		h1 {
 			font-size: 36px;
+			display: inline-block;
+			width: 100%;
+			line-height: 1;
+			margin-bottom: 10px;
 		}
 		ul {
 			li {
@@ -691,7 +695,22 @@ body {
 .profile-control {
 	display: inline-block;
 	float: left;
-	margin-right: 20%;
+	margin-right: 0;
+	max-width: 40%;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.page-inner .item-brand {
+	display: inline-block;
+	max-width: 60%;
+	width: 100%;
+	float: left;
+	margin-bottom: 0;
+
+	&.field-progres-bar {
+		max-width: 100%;
+	}
 }
 
 .side-content {
